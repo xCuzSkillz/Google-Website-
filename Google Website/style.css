@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    float: right;
+    display: flex;
+    padding-right: 3%;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.nav-bar a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: rgb(117, 115, 115);
+    text-decoration: underline;
+}
+.google-logo{
+    padding-top: 10%;
+    margin-left: 13%;
+    height: 300px;
+}
+#inp-1{
+    border-radius: 17px;
+    border: 1px solid  rgb(173, 173, 173);
+    border-color: rgb(173, 173, 173);
+    padding: 10px 12px;
+    width: 24%;
+    font-size: 15px;
+    text-decoration: none;
+}
+*:focus {
+    outline: none;
+}
+.buttons #bt-1,.bt-2{
+    padding: 10px 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+   .buttons button:hover{
+    background-color: rgb(203, 204, 206);
+}
+.bt-2{
+    margin-right: 20px;
+}
+.offerd{
+    font-size: 14px;
+}
+.offerd span:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer{
+    margin: 10px;
+    padding-left: 14px;
+    color: rgb(63, 63, 63);
+}
+footer a,h4{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    color: rgb(63, 63, 63);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer h4{
+    padding-bottom: 10px;
+}
+.fa-search{
+    font-size: 17px;
+    padding-right: 10px;
+    color: rgb(187, 187, 187);
+}
+.fa-th{
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+    .google-logo{
+        margin-top: 80px;
+        margin-left: 56px;
+        margin-right: 40px;
+        width: 50%;
+        height: 30%;
+
+    }
+    #inp-1{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1200) {
+    .google-logo{
+        margin-top: 80px;
+        margin-left: 56px;
+        margin-right: 40px;
+        width: 50%;
+        height: 30%;
+
+    }
+    .inp-1{
+        width: 90%;
+    }
+}
